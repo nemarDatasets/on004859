@@ -1,24 +1,30 @@
 {
-    "Name": "iEEG on children during Stroop task",
-    "BIDSVersion": "1.7.0",
-    "DatasetType": "raw",
-    "License": "CC0",
-    "Authors": [
-        "Kazuki Sakakura",
-        "Eishi Asano"
-    ],
-    "Acknowledgements": "",
-    "HowToAcknowledge": "N/A",
-    "Funding": [
-        "N/A"
-    ],
-    "EthicsApprovals": [
-        "IRB of Wayne State University"
-    ],
-    "ReferencesAndLinks": [
-        "",
-        "",
-        ""
-    ],
-    "DatasetDOI": "doi:10.18112/openneuro.ds004859.v1.0.0"
+  "Name": "iEEG on children during Stroop task",
+  "BIDSVersion": "1.7.0",
+  "DatasetType": "raw",
+  "License": "CC0",
+  "Authors": [
+    "Kazuki Sakakura",
+    "Eishi Asano"
+  ],
+  "Acknowledgements": "",
+  "HowToAcknowledge": "N/A",
+  "Funding": [
+    "N/A"
+  ],
+  "EthicsApprovals": [
+    "IRB of Wayne State University"
+  ],
+  "ReferencesAndLinks": [
+    "",
+    "",
+    ""
+  ],
+  "DatasetDOI": "10.82901/nemar.on004859",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004859.v1.0.0"
+    }
+  ],
+  "Version": "1.0.0"
 }
