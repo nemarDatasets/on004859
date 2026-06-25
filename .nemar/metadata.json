@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "iEEG on children during Stroop task",
-  "description": "This dataset comprises intracranial electroencephalography (iEEG) recordings from pediatric patients performing a Stroop task. The dataset provides direct cortical recordings that enable investigation of neural mechanisms underlying cognitive control and color-word interference processing in the developing brain.",
+  "description": "This dataset comprises intracranial electroencephalography (iEEG) recordings from pediatric patients performing a Stroop task. The dataset provides direct cortical recordings that enable investigation of neural mechanisms underlying cognitive control and conflict resolution in developing brains. These data support research into the functional organization of executive function networks in children.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -26,7 +26,7 @@
       "term": "pediatric neurology"
     },
     {
-      "term": "intracranial electrodes"
+      "term": "executive function"
     }
   ],
   "related_identifiers": [
