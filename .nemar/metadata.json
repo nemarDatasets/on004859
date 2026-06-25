@@ -1,0 +1,33 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004859",
+  "source": "openneuro",
+  "source_id": "ds004859",
+  "title": "iEEG on children during Stroop task",
+  "authors": {
+    "Kazuki Sakakura": {},
+    "Eishi Asano": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004859.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "N/A"
+    }
+  ]
+}
