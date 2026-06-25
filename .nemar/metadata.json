@@ -1,33 +1,75 @@
 {
   "version": "2.0",
-  "dataset_id": "on004859",
-  "source": "openneuro",
-  "source_id": "ds004859",
+  "pipeline_stage": "enriched",
   "title": "iEEG on children during Stroop task",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Kazuki Sakakura": {},
     "Eishi Asano": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004859.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004859",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004859",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
-    "ieeg"
-  ],
-  "datatypes": [
-    "ieeg"
   ],
   "funding_references": [
     {
       "funder_name": "N/A"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "This dataset comprises intracranial electroencephalography (iEEG) recordings from pediatric patients performing a Stroop task. The dataset provides direct cortical recordings that enable investigation of neural mechanisms underlying cognitive control and color-word interference processing in the developing brain. This is a NEMAR mirror of the OpenNeuro dataset ds004859.",
+  "keywords": [
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "electrocorticography"
+    },
+    {
+      "term": "Stroop task"
+    },
+    {
+      "term": "cognitive control"
+    },
+    {
+      "term": "pediatric"
+    },
+    {
+      "term": "color-word interference"
+    },
+    {
+      "term": "pediatric neurology"
+    },
+    {
+      "term": "intracranial electrodes"
+    }
+  ],
+  "source_hash": "32d70b7bbded367c4388a5c6f2014a7ed739a7891088e5ab43dae6155f4fdcbc"
 }
