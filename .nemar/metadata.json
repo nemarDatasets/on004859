@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "iEEG on children during Stroop task",
-  "description": "This dataset comprises intracranial electroencephalography (iEEG) recordings from pediatric patients performing a Stroop task. The dataset provides direct cortical recordings that enable investigation of neural mechanisms underlying cognitive control and conflict resolution in developing brains. These data support research into the functional organization of executive function networks in children.",
+  "description": "Intracranial EEG (iEEG) recordings from children performing a Stroop task, organized in BIDS format. The dataset is mirrored on NEMAR from the original OpenNeuro deposit (ds004859) and supports investigation of neural activity related to cognitive control in the developing brain.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,19 +14,18 @@
       "term": "iEEG"
     },
     {
-      "term": "electrocorticography"
+      "term": "Stroop task"
     },
     {
-      "term": "Stroop task"
+      "term": "children"
     },
     {
       "term": "cognitive control"
     },
     {
-      "term": "pediatric neurology"
-    },
-    {
-      "term": "executive function"
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
     }
   ],
   "related_identifiers": [
@@ -36,14 +35,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004859",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004859.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004859",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -57,7 +56,7 @@
     "ieeg"
   ],
   "sizes": [
-    "2.3 GB (9 files)"
+    "2.17 GB (9 files)"
   ],
   "formats": [
     ".edf",
