@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "iEEG on children during Stroop task",
-  "description": "Intracranial EEG (iEEG) recordings from children performing a Stroop task, organized in BIDS format. The dataset is mirrored on NEMAR from the original OpenNeuro deposit (ds004859) and supports investigation of neural activity related to cognitive control in the developing brain.",
+  "description": "Intracranial EEG (iEEG) recordings from children performing a Stroop task, collected at Wayne State University. The dataset is organized in BIDS format and includes channel and electrode location information, with electrodes standardized to FreeSurfer fsaverage coordinates. It is mirrored on NEMAR from OpenNeuro (ds004859).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,6 +14,9 @@
       "term": "iEEG"
     },
     {
+      "term": "intracranial EEG"
+    },
+    {
       "term": "Stroop task"
     },
     {
@@ -21,11 +24,6 @@
     },
     {
       "term": "cognitive control"
-    },
-    {
-      "term": "Electrocorticography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
     }
   ],
   "related_identifiers": [
@@ -65,5 +63,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "7920b193f4082741ec57bb2d6b3f7506c26e51a24b35e1c9aeb45c4919cdec3b"
+  "source_hash": "481a58f5b28c052d413bc6b5a106fa51a374502a496d182ff0d2df6cb32f0ada"
 }
