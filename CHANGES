@@ -1,2 +1,10 @@
+1.0.1 2026-10-22
+  - Remove 1 empty Levels enumerations from participants.json; no defined categories
+    or participant table values change. Exact source schema retained under
+    sourcedata/participant-schema-before-empty-enum-fix/participants.json.
+  - 2026-10-19 electrode locations: add coordsystem.json fsaverage/mm next to 9 electrodes.tsv (9 files). README: section 'Electrode locations (19 Oct 2026)'.
+  - channels.tsv of 9 recordings = the data-file header channel list (name, order, count; matched by name): 0 rows renamed to the header name, 129 rows added, 130 rows removed (kept in sourcedata/channels-removed-2026-10-18/), 9 files reordered. mne_bids read_raw_bids raised 'Channel mismatch'.
+  - README: section 'Channel names follow the data headers'.
+
 1.0.0 2023-11-22
   - First uploaded

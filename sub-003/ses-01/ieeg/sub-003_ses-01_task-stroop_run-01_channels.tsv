@@ -9,8 +9,6 @@ A7	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	spiking
 A8	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	spiking
 A9	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
 A10	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
-A11	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
-A12	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
 A13	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
 A14	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
 A15	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
@@ -20,8 +18,11 @@ A18	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	seizure onset zone
 A19	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	seizure onset zone
 A20	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	seizure onset zone
 A21	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
+E	MISC	µV	n/a	n/a	n/a	n/a	1000	n/a	n/a	n/a	n/a
 A22	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
 A23	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
+A11	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
+A12	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
 A24	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
 A25	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
 A26	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
@@ -35,8 +36,18 @@ A33	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
 A34	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
 A35	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
 A36	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	spiking
+DC01	MISC	mV	n/a	n/a	n/a	n/a	1000	n/a	n/a	n/a	n/a
+DC02	MISC	mV	n/a	n/a	n/a	n/a	1000	n/a	n/a	n/a	n/a
+DC03	MISC	mV	n/a	n/a	n/a	n/a	1000	n/a	n/a	n/a	n/a
+DC04	MISC	mV	n/a	n/a	n/a	n/a	1000	n/a	n/a	n/a	n/a
+DC05	MISC	mV	n/a	n/a	n/a	n/a	1000	n/a	n/a	n/a	n/a
+DC06	MISC	mV	n/a	n/a	n/a	n/a	1000	n/a	n/a	n/a	n/a
+DC07	MISC	mV	n/a	n/a	n/a	n/a	1000	n/a	n/a	n/a	n/a
+DC08	MISC	mV	n/a	n/a	n/a	n/a	1000	n/a	n/a	n/a	n/a
 A37	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	spiking
 A38	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	spiking
+EEG Mark1	MISC	mV	n/a	n/a	n/a	n/a	1000	n/a	n/a	n/a	n/a
+EEG Mark2	MISC	mV	n/a	n/a	n/a	n/a	1000	n/a	n/a	n/a	n/a
 A39	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
 A40	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
 A41	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	good	n/a
@@ -115,15 +126,4 @@ B49	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	artifact
 B50	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	artifact
 B51	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	artifact
 B52	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	artifact
-B53	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	artifact
-B54	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	artifact
-B55	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	artifact
-B56	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	artifact
-B57	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	artifact
-B58	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	artifact
-B59	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	artifact
-B60	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	artifact
-B61	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	artifact
-B62	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	artifact
-B63	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	artifact
-B64	ECOG	µV	0.016	300	n/a	n/a	1000	n/a	n/a	bad	artifact
+Events/Markers	TRIG	n/a	n/a	n/a	n/a	n/a	1000	n/a	n/a	n/a	n/a
